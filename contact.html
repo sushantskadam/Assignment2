@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Contact Us</title>
+  </head>
+  <body>
+   <main class=" container-fluid  bgcolor">
+    <nav class="container-fluid navbar navbar-expand-lg bg-darkfixed-top shadow-5-strong nav_css">
+        <a class="navbar-brand text-warning font-weight-bold" href="#"><img src="img/navbrand.PNG" width="160" height="60" class=""></a>
+        <button class="navbar-toggler text-white "  type="button" data-toggle="collapse" data-target="#main_nav">
+          <span class="fa fa-bars text-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active"><a class="nav-link text-dark" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">SHOP</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">PICNIC</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">PAGE</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">PROMOTION</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">CONTACT US</a></li>
+            </ul>            
+            <a class="navbar-brand font-weight-bold" id="main_nav" href="#"><i class="fa fa-search" style="color: black;"></i></a>
+            <a class="navbar-brand font-weight-bold" id="main_nav" href="#"><i class="fa fa-shopping-cart" style="color: black;"></i></a>
+            <a class="navbar-brand font-weight-bold" id="main_nav" href="#"><i class="fa fa-bars" style="color: black;"></i></a>
+        </div> <!-- navbar-collapse.// -->
+    </nav>
+     <section class="conpad"> 
+    <form action="#"  onsubmit="return false">
+    <div class="row">
+    <div class="form-group col-md-4 ">
+        <label for="name">Name :</label>
+        <input type="text" class="form-control" id="name" placeholder="Name" onfocus="submitt()">
+    </div>
+    <div class="alert alert-danger col-md-4 hidden" id=idname role="alert" style="display:none">
+        
+      </div>
+    </div>
+    <div class="row">
+     <div class="form-group col-md-4 ">
+        <label for="mobile">Mobile No :</label>
+        <input type="number" class="form-control" id="mobile" placeholder="Mobile No" onfocus="submitt()">
+    </div>
+    <div class="alert alert-danger col-md-4" id=idmobile role="alert" style="display:none">
+        
+    </div>
+      </div>
+      <div class="row">
+    <div class="form-group col-md-4">
+      <label for="exampleInputEmail1">Email Address :</label>
+      <input type="email" class="form-control" id="mailid" aria-describedby="emailHelp"  name="mail" placeholder="Enter email" onfocus="submitt()">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="alert alert-danger col-md-4"  id=idmail role="alert" style="display:none">
+        
+    </div>
+      </div>
+    <div class="">
+    <label for="inlineRadio1 col-form-label" >Gender: </label>
+    <div class="form-check form-check-inline">
+        
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="male" >
+        <label class="form-check-label" for="male">Male</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="female" >
+        <label class="form-check-label" for="Female">Female</label>
+      </div>
+    </div><br>
+    <div class="row">
+      <div class="form-group col-md-4">
+        <label for="FormControlTextarea1">Feedback :</label>
+        <textarea class="form-control" id="feedback" rows="3" onfocus="submitt()"></textarea>
+      </div>
+      <div class="alert alert-danger col-md-4" id=idfeedback role="alert" style="display:none">
+        
+    </div>
+      </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+    </div>
+    <div class="alert alert-success col-md-4" id=idsubmit role="alert" style="display:none"></div>
+    <button type="submit pl-6" class="btn btn-primary" Onclick="valid()">Submit</button>
+    <button type="reset" value="reset" class="btn btn-danger">Reset</button>    
+</form>
+
+</section> 
+          <footer class=" text-center">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/foot1.PNG" alt="First slide">
+                </div>
+                
+              </div>
+            </div>
+            <!-- Grid container -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col bg-primary  pt-3 pb-3 text-light">
+                  <i class="fa fa-facebook"></i> FACEBOOK
+                </div>
+                <div class="col bg-info pt-3 pb-3 text-light">
+                  <i class="fa fa-twitter"></i> TWITTER
+                </div>
+                <div class="col text-light bg-danger pt-3 pb-3 ">
+                  <i class="fa fa-instagram"></i> INSTAGRAM
+                </div>
+                <div class="col bg-warning  pt-3 pb-3  text-light">
+                  <i class="fa fa-dribbble"></i> DRIBBBLE
+                </div>
+                <div class="col bg-success pt-3 pb-3  text-light">
+                  <i class="fa fa-pinterest"></i> PINTEREST
+                </div>
+                
+
+              </div>
+            </div>
+          
+              <!-- Section: Text -->
+              <section class="mb-4 foot" style="background-color: rgba(26, 23, 23, 0.986);" >
+                <img src="img/logo.PNG"> <br>
+                <p class="container text-light">
+                  <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                  repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                  eum harum corrupti dicta, aliquam sequi voluptate quas.</i>
+                </p>
+                <div class="text-light">
+                  <span class="fa fa-cc-paypal" style="font-size:30px"></span>
+                  <span class="	fa fa-cc-visa" style="font-size:30px"></span>
+                  <span class="fa fa-cc-discover" style="font-size:30px"></span>
+                  <span class="fa fa-cc-amex" style="font-size:30px"></span>
+                  <span class="fa fa-cc-mastercard" style="font-size:30px" ></span>
+              </div>
+              </section>
+              
+          
+              
+           
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center  pb-3 text-dark">
+              © 2020 Copyright  All Rights Reserved
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+   </main>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="JS/validation.js" ></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

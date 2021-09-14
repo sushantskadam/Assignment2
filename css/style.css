@@ -1,0 +1,118 @@
+.bgimage{
+    background-image: url('../img/head.PNG');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.bgcolor{
+    background-color: rgba(226, 226, 226, 0.678);
+}
+.logo-image{
+    width: 30px;
+    height: 35px;   
+}
+.cardmargin{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.shopcard{
+    margin: 15px 15px 15px 15px;
+}
+.mediabody{
+    padding: 25px 25px 25px 25px; 
+}
+.dot1 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(47, 0, 255);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot2 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot3 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(216, 212, 0);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .time{
+      width: 70px;
+      height: 70px;
+      background-color: rgb(124, 124, 204);
+  }
+ 
+  .cardmargin2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  .checked{color: rgb(255, 255, 0);}
+
+  .img2{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.cardhorz{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cardmargin3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.foot{
+    width: 100%;
+    
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.footmarg{
+    width: 100px;
+}
+.conpad{
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+@media only screen and (max-width: 600px){
+    .cleft{
+        display: block;
+    }
+    .cimg{
+        width: 435px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .cleft{
+        display: block;
+    }
+    .cimg{
+        width: 435px;
+        height: 430px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .cleft{
+        display: block;
+    }
+    .cimg{
+        width: 435px;
+        height: 430px;
+    }
+    .pad{
+        padding-left: 30px;
+    }
+    
+}
